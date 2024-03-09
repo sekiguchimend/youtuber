@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(234, 234, 234);
+  }
+  .hr {
+    width: 80px;
+    border-color:  rgb(99, 99, 197);
+    margin-bottom: 30px;
+
+}
+.h3{
+    margin-top: 100px;
+
+    text-align: center;
+}
+  .twitter,
+  .insta,
+  .employe,
+  .pwa {
+    width: 20%; /* 各コンテンツの幅を調整 */
+  }
+  .hrContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}

@@ -1,0 +1,50 @@
+/* Head.module.css */
+
+/* クリックされた時のスタイル */
+.title:active h1 {
+  opacity: 0.5; /* 透明度を半分に設定 */
+}
+
+.inlineBlock {
+  display: inline-block;
+  margin: 20px 0 0 50px;
+}
+
+.header {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex; /* コンテンツを横並びに配置 */
+  justify-content: space-around; /* コンテンツを均等に配置 */
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* ナビゲーション項目を横並びに配置 */
+}
+
+.header nav ul li {
+  margin-right: 10px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.imageContainer {
+  text-align: center; /* テキストを中央揃え */
+}
+
+.imageContainer img {
+  max-width: 70px; /* 画像の最大幅を設定 */
+  height: auto; /* アスペクト比を維持しながら高さを自動調整 */
+}
+
+.imageContainer p {
+  margin: 5px 0 0; /* テキストのマージンを設定 */
+}

@@ -1,40 +1,36 @@
 .main {
-  width: 960px;
+  max-width: 1300px;
   margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.blogContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blogItem {
+  width: calc(30% - 20px); /* 2つのアイテムが1行に並ぶように幅を50%に設定 */
+  margin: 0 5px 20px 5px; /* 左右の余白を5pxに設定 */
+  background-color: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+
+.blogItem img {
+  width: 100%;
+  height: auto;
 }
 
 .title {
-  margin-bottom: 20px;
-}
-
-.publishedAt {
-  margin-bottom: 40px;
-}
-
-.post {
-  & > h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 40px 0 20px;
-    background-color: #eee;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-
-  & > h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 40px 0 16px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  & > p {
-    line-height: 1.8;
-    letter-spacing: 0.2px;
-  }
-
-  & > ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-  }
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #565656;
+  font-size: 20px;
+  margin: 20px;
 }
