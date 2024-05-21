@@ -1,28 +1,42 @@
 .footer {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(234, 234, 234);
-  }
-  .hr {
-    width: 80px;
-    border-color:  rgb(99, 99, 197);
-    margin-bottom: 30px;
-
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(234, 234, 234);
+  text-align: center;
 }
-.h3{
-    margin-top: 100px;
 
-    text-align: center;
+.footer-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
-  .twitter,
-  .insta,
-  .employe,
-  .pwa {
-    width: 20%; /* 各コンテンツの幅を調整 */
-  }
-  .hrContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+
+.hr {
+  width: 80px;
+  border-color: rgb(99, 99, 197);
+  margin-bottom: 30px;
+}
+
+.h3 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.employe,
+.pwa,
+.insta {
+  text-align: center;
+  flex: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.hrContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }

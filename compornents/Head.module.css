@@ -8,13 +8,16 @@
 .inlineBlock {
   display: inline-block;
   margin: 20px 0 0 50px;
+  font-family: serif;
+  font-weight: bold;
 }
 
 .header {
   color: rgb(0, 0, 0);
   padding: 20px;
   display: flex; /* コンテンツを横並びに配置 */
-  justify-content: space-around; /* コンテンツを均等に配置 */
+  justify-content: space-between; /* コンテンツを両端に配置 */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
 }
 
 .header h1 {
@@ -28,7 +31,7 @@
 }
 
 .header nav ul li {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 .header nav ul li a {
@@ -36,15 +39,44 @@
   text-decoration: none;
 }
 
+.socialMediaIcons {
+  display: flex; /* アイコンを横並びに配置 */
+  gap: 10px; /* アイコン間の間隔を設定 */
+}
+
+.socialMediaIcons img {
+  width: 24px; /* アイコンサイズを設定 */
+  height: 24px;
+}
 .imageContainer {
   text-align: center; /* テキストを中央揃え */
+  margin: 0 80px; /* 左右の余白を追加 */
+}
+
+.imageContainer div {
+  margin-top: 10px; /* 上部の余白を追加 */
 }
 
 .imageContainer img {
-  max-width: 70px; /* 画像の最大幅を設定 */
+  max-width: 40px; /* 画像の最大幅を設定 */
   height: auto; /* アスペクト比を維持しながら高さを自動調整 */
 }
 
 .imageContainer p {
   margin: 5px 0 0; /* テキストのマージンを設定 */
+  font-size: small;
+  font-family: serif;
+  font-weight: bold;
+}
+/* Head.module.css */
+.twitterIcon {
+  font-size: 35px;
+}
+
+.instagramIcon {
+  font-size: 30px;
+}
+
+.tiktokIcon {
+  font-size: 25px;
 }

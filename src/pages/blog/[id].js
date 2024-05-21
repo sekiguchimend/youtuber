@@ -58,7 +58,8 @@ export default function BlogId({ blog }) {
                     <div className={styles.hrContainer}>
                         <hr className={styles.hr} />
                     </div>
-                    <p>ブログ始めた</p>
+                    <p>AIプログラマー</p>
+                    <p>AIだけで0から初学者がTwitterを作れるようになるAIスクールを運営中。</p>
                     {/* ここにプロフィールの内容を表示 */}
                 </aside>
                 
