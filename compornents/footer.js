@@ -9,7 +9,7 @@ export function Footer() {
                     <div className={Styles.hrContainer}>
                         <hr className={Styles.hr} />
                     </div>
-                    <p>投稿した記事についての投稿をしています。</p>
+                    <p>投稿した記事についての投稿をしています。Twitterはフォロー返しているのでぜひフォローしてください。</p>
                     <img src='' />
                 </div>
                 <div className={Styles.employe}>
@@ -18,20 +18,18 @@ export function Footer() {
                         <hr className={Styles.hr} />
                     </div>
                     <p>
-                        開発中のアプリなどについて投稿しています。
-                        面白いサービスを作ったり
-                        してるので興味があれば見てください。
+                        日常を投稿してます。普段何をしているのかとか気になる方は見に来てください。
                     </p>
                     <img src='' />
                 </div>
                 <div className={Styles.pwa}>
-                    <h3 className={Styles.h3}>アプリについて</h3>
+                    <h3 className={Styles.h3}>アプリ化</h3>
                     <div className={Styles.hrContainer}>
                         <hr className={Styles.hr} />
                     </div>
                     <p>
-                        当サイトはアプリ化をすることができます。
-                        右上の三点を押してインストールしてください。
+                        右上の三点を押すとダウンロードまたはインストールという選択肢があるのでそこをクリックすると当サイトを
+                        スマホのホーム画面やパソコンのホーム画面にアプリのように表示されます。
                     </p>
                 </div>
             </div>

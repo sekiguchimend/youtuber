@@ -2,10 +2,12 @@
 
 import { client } from "../../../libs/apis";
 import styles from "./Lib.module.css";
-import { Head } from "../../../compornents/Head"; // コンポーネントのパスを修正
+import { Header } from "../../../compornents/Head"; // コンポーネントのパスを修正
 import Link from "next/link";
 import ReactHtmlParser from "react-html-parser"; // ReactHtmlParser のインポート
 import {Footer} from "../../../compornents/footer";
+import Head from "next/head"; // SEO用のHead
+
 // 日付を日本語表記に変換する関数
 const formatDate = (dateString) => {
   const options = {
@@ -35,10 +37,68 @@ export const getStaticPaths = async () => {
     };
 };
 
+
 export default function BlogId({ blog }) {
+    console.log('Meta Description:', blog.description);
+
     return (
         <>
-        <Head />
+         <Head>
+        {/* ページタイトル */}
+        <title>{blog.title}</title>
+        
+        {/* ページの説明 */}
+        <meta name="description" content={blog.description} />
+        
+        {/* ビューポートの設定 */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* 文字エンコーディング */}
+        <meta charSet="UTF-8" />
+        
+        {/* 検索エンジンにインデックスされないようにするには（必要に応じて） */}
+        {/* <meta name="robots" content="noindex, nofollow" /> */}
+        
+        {/* Open Graph プロトコル（ソーシャルメディアでの共有時に使用される） */}
+        <meta property="og:title" content={blog.title} />
+        <meta property="og:description" content={blog.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.example.com/mypage" />
+        <meta property="og:image" content={blog.image}/>
+        
+        {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={blog.title} />
+        <meta name="twitter:description" content={blog.description} />
+        <meta name="twitter:image" content={blog.image} />
+        <meta name="twitter:site" content="@SekiguchiS39523" />
+        
+        {/* favicon の設定 */}
+        <link rel="icon" href="/ai.png" />
+        <link rel="apple-touch-icon" href="/ai.png" />
+        
+        {/* キャノニカル URL（重複コンテンツを避けるため） */}
+        <link rel="canonical" href="https://www.example.com/mypage/blog/{post-id}" />
+        
+        {/* 他の必要なメタタグ */}
+        <meta name="author" content="AIエンジニア" />
+        
+        {/* その他の外部リソースやスクリプトのリンク */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        
+        {/* プラグインやサードパーティのメタタグ（例：Google Analytics） */}
+        {/* Google Analytics */}
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-XXXXXXX-X');
+          `}
+        </script> */}
+      </Head>
+        <Header />
         <div className={styles.container}>
           
             <main className={styles.main}>               
@@ -54,11 +114,11 @@ export default function BlogId({ blog }) {
             <div className={styles.tate}>
                 <aside className={styles.profile}>
                     <img src="" />
-                    <h4>峻矢</h4>
+                    <h4>AIエンジニア</h4>
                     <div className={styles.hrContainer}>
                         <hr className={styles.hr} />
                     </div>
-                    <p>AIプログラマー</p>
+                    
                     <p>AIだけで0から初学者がTwitterを作れるようになるAIスクールを運営中。</p>
                     {/* ここにプロフィールの内容を表示 */}
                 </aside>
@@ -73,4 +133,5 @@ export default function BlogId({ blog }) {
         <Footer />
         </>
     );
+    
 }

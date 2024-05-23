@@ -151,3 +151,22 @@ margin-bottom: 50px;
     color: #444;
 
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* 縦方向に変更 */
+    }
+    .profile, .matome {
+        margin: 20px auto; /* 上下中央揃えと余白 */
+        width: calc(100% - 20px); /* 幅を調整 */
+    }
+    .post {
+        margin: 20px auto; /* 上下中央揃えと余白 */
+        width: calc(100% - 20px); /* 幅を調整 */
+    }
+    .post h1 {
+        font-size: 24px; /* フォントサイズを調整 */
+    }
+    .post h2 {
+        font-size: 20px; /* フォントサイズを調整 */
+    }
+}
