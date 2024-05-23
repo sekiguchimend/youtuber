@@ -7,8 +7,8 @@ export default function Profile() {
     <>
     <Head>
     <title>AIエンジニアのプロフィール</title>
-    <meta name="google-adsense-account" content="ca-pub-5463240386609584" />
-    </Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5463240386609584"
+     crossorigin="anonymous"></script>    </Head>
       <Header />
       
       <div className="profile">

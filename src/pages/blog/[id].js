@@ -71,7 +71,6 @@ export default function BlogId({ blog }) {
         <meta name="twitter:description" content={blog.description} />
         <meta name="twitter:image" content={blog.image} />
         <meta name="twitter:site" content="@SekiguchiS39523" />
-        <meta name="google-adsense-account" content="ca-pub-5463240386609584" />
         {/* favicon の設定 */}
         <link rel="icon" href="/ai.png" />
         <link rel="apple-touch-icon" href="/ai.png" />
@@ -96,6 +95,8 @@ export default function BlogId({ blog }) {
             gtag('config', 'UA-XXXXXXX-X');
           `}
         </script> */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5463240386609584"
+     crossorigin="anonymous"></script>
       </Head>
         <Header />
         <div className={styles.container}>
