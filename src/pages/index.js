@@ -16,7 +16,7 @@ export default function Home({ blog }) {
      <Head>
         {/* ページタイトル */}
         <title>AIエンジニア</title>
-        <meta name="google-adsense-account" content="ca-pub-5463240386609584"></meta>
+        <meta name="google-adsense-account" content="ca-pub-5463240386609584" />
         {/* ページの説明 */}
         <meta name="description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
         

@@ -7,7 +7,7 @@ export default function Profile() {
     <>
     <Head>
     <title>AIエンジニアのプロフィール</title>
-    <meta name="google-adsense-account" content="ca-pub-5463240386609584"></meta>
+    <meta name="google-adsense-account" content="ca-pub-5463240386609584" />
     </Head>
       <Header />
       
