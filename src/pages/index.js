@@ -30,33 +30,33 @@ export default function Home({ blog }) {
         {/* <meta name="robots" content="noindex, nofollow" /> */}
         
         {/* Open Graph プロトコル（ソーシャルメディアでの共有時に使用される） */}
-        <meta property="og:title" content="My Awesome Page - 具体的なテーマに関連するキーワード" />
-        <meta property="og:description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
+        <meta property="og:title" content="AIエンジニア" />
+        <meta property="og:description" content="AIエンジニアBlogではAIをフル活用して誰でも楽しくサイトやアプリを作る方法を載せています。
+        プログラミング初心者に向けた有益な情報も発信してます。" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.example.com/mypage" />
-        <meta property="og:image" content="https://www.example.com/images/og-image.jpg" />
+        <meta property="og:image" content="ai.png" />
         
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="My Awesome Page - 具体的なテーマに関連するキーワード" />
-        <meta name="twitter:description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
-        <meta name="twitter:image" content="https://www.example.com/images/twitter-image.jpg" />
-        <meta name="twitter:site" content="@TwitterHandle" />
+        <meta name="twitter:title" content="AIエンジニアBlog" />
+        <meta name="twitter:description" content="AIエンジニアBlogではAIをフル活用して誰でも楽しくサイトやアプリを作る方法を載せています。" />
+        <meta name="twitter:image" content="ai.png" />
+        <meta name="twitter:site" content="@SekiguchiS39523" />
         
         {/* favicon の設定 */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/ai.png" />
+        <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
         <link rel="canonical" href="https://www.example.com/mypage" />
         
         {/* 他の必要なメタタグ */}
-        <meta name="author" content="サイト運営者の名前" />
-        <meta name="keywords" content="キーワード1, キーワード2, キーワード3, ..." />
+        <meta name="author" content="AIエンジニア" />
+        <meta name="keywords" content="AI, プログラミング, エンジニア, ..." />
         
         {/* その他の外部リソースやスクリプトのリンク */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
         
         {/* プラグインやサードパーティのメタタグ（例：Google Analytics） */}
         {/* Google Analytics */}

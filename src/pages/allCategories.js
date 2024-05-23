@@ -9,10 +9,10 @@ export default function SalonIntroduction() {
     <>
      <Head>
         {/* ページタイトル */}
-        <title>My Awesome Page - 具体的なテーマに関連するキーワード</title>
+        <title>AI大学</title>
         
         {/* ページの説明 */}
-        <meta name="description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
+        <meta name="description" content="AIをフル活用して誰でも簡単にアプリやサイトを作れるようになるオンラインスクール" />
         
         {/* ビューポートの設定 */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,33 +24,32 @@ export default function SalonIntroduction() {
         {/* <meta name="robots" content="noindex, nofollow" /> */}
         
         {/* Open Graph プロトコル（ソーシャルメディアでの共有時に使用される） */}
-        <meta property="og:title" content="My Awesome Page - 具体的なテーマに関連するキーワード" />
-        <meta property="og:description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
+        <meta property="og:title" content="AI大学" />
+        <meta property="og:description" content="AIをフル活用して誰でも簡単にアプリやサイトを作れるようになるオンラインスクール" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.example.com/mypage" />
-        <meta property="og:image" content="https://www.example.com/images/og-image.jpg" />
+        <meta property="og:image" content="ai.png" />
         
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="My Awesome Page - 具体的なテーマに関連するキーワード" />
-        <meta name="twitter:description" content="このページの説明文。具体的でユーザーの興味を引く内容にする。" />
+        <meta name="twitter:title" content="AI大学" />
+        <meta name="twitter:description" content="AIをフル活用して誰でも簡単にアプリやサイトを作れるようになるオンラインスクール" />
         <meta name="twitter:image" content="https://www.example.com/images/twitter-image.jpg" />
-        <meta name="twitter:site" content="@TwitterHandle" />
+        <meta name="twitter:site" content="@SekiguchiS39523" />
         
         {/* favicon の設定 */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/ai.png" />
+        <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
         <link rel="canonical" href="https://www.example.com/mypage" />
         
         {/* 他の必要なメタタグ */}
-        <meta name="author" content="サイト運営者の名前" />
-        <meta name="keywords" content="キーワード1, キーワード2, キーワード3, ..." />
+        <meta name="author" content="AIエンジニア" />
+        <meta name="keywords" content="AI, プログラミングスクール, エンジニア, ..." />
         
         {/* その他の外部リソースやスクリプトのリンク */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
         
         {/* プラグインやサードパーティのメタタグ（例：Google Analytics） */}
         {/* Google Analytics */}

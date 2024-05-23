@@ -1,9 +1,14 @@
 import { Header } from "../../../compornents/Head"; // コンポーネントのパスを修正
 import { Footer } from "../../../compornents/footer";
+import Head from "next/head"; // SEO用のHead
 
 export default function Profile() {
   return (
     <>
+    <Head>
+    <title>AIエンジニアのプロフィール</title>
+
+    </Head>
       <Header />
       
       <div className="profile">

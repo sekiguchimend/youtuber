@@ -4,7 +4,6 @@ import { client } from "../../../libs/apis";
 import styles from "./Lib.module.css";
 import { Header } from "../../../compornents/Head"; // コンポーネントのパスを修正
 import Link from "next/link";
-import ReactHtmlParser from "react-html-parser"; // ReactHtmlParser のインポート
 import {Footer} from "../../../compornents/footer";
 import Head from "next/head"; // SEO用のHead
 
@@ -125,7 +124,7 @@ export default function BlogId({ blog }) {
                 
                 <div className={styles.matome}>
                     <Link href="/" legacyBehavior>
-                        <a>まとめ</a>
+                        <a>他の記事</a>
                     </Link>
                 </div>
             </div>

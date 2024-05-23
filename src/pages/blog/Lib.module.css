@@ -90,6 +90,7 @@ color: #444;
     display: block; /* インライン要素の不要な余白を削除 */
     margin: 0 auto; /* 横方向の中央揃え */margin-top: 50px;
 margin-bottom: 50px;
+
 }
 
 .container {
