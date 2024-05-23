@@ -5,7 +5,7 @@ import styles from "./Lib.module.css";
 import { Header } from "../../../compornents/Head"; // コンポーネントのパスを修正
 import Link from "next/link";
 import {Footer} from "../../../compornents/footer";
-import Head from "next/head"; // SEO用のHead
+import Head from "next/head"; 
 
 // 日付を日本語表記に変換する関数
 const formatDate = (dateString) => {
