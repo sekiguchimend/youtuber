@@ -76,7 +76,7 @@ export default function BlogId({ blog }) {
         <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
-        <link rel="canonical" href="https://youtubernews.vercel.app/blog/{post-id}" />
+        <link rel="canonical" href={`https://youtubernews.vercel.app/blog/${blog.id}`} />
         
         {/* 他の必要なメタタグ */}
         <meta name="author" content="AIエンジニア" />
