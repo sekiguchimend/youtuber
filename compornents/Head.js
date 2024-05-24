@@ -27,7 +27,7 @@ export function Header() {
             <Link href="/allCategories" passHref>
               <div>
                 <img src="/app.png" alt="Image 1" />
-                <p>作品</p>
+                <p>AI大学</p>
               </div>
             </Link>
           </div>
@@ -43,7 +43,7 @@ export function Header() {
             <Link href="/youtuber/toukai" passHref>
               <div>
                 <img src="/plo.png" alt="Image 3" />
-                <p>プロフィール</p>
+                <p>自分</p>
               </div>
             </Link>
           </div>
