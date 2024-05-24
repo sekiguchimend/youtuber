@@ -64,7 +64,7 @@ export default function BlogId({ blog }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`https://youtubernews.vercel.app/blog/${blog.id}`}  />
         <meta property="og:image" content={`https://youtubernews.vercel.app/${blog.image}`}/>
-        
+
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={blog.title} />
