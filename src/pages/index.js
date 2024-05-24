@@ -34,14 +34,14 @@ export default function Home({ blog }) {
         <meta property="og:description" content="AIエンジニアBlogではAIをフル活用して誰でも楽しくサイトやアプリを作る方法を載せています。
         プログラミング初心者に向けた有益な情報も発信してます。" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.example.com/mypage" />
+        <meta property="og:url" content="https://youtubernews.vercel.app/" />
         <meta property="og:image" content="ai.png" />
         
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AIエンジニアBlog" />
         <meta name="twitter:description" content="AIエンジニアBlogではAIをフル活用して誰でも楽しくサイトやアプリを作る方法を載せています。" />
-        <meta name="twitter:image" content="ai.png" />
+        <meta name="twitter:image" content="https://youtubernews.vercel.app/ai.png" />
         <meta name="twitter:site" content="@SekiguchiS39523" />
         
         {/* favicon の設定 */}
@@ -49,7 +49,7 @@ export default function Home({ blog }) {
         <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
-        <link rel="canonical" href="https://www.example.com/mypage" />
+        <link rel="canonical" href="https://youtubernews.vercel.app/" />
         
         {/* 他の必要なメタタグ */}
         <meta name="author" content="AIエンジニア" />

@@ -27,14 +27,14 @@ export default function SalonIntroduction() {
         <meta property="og:title" content="AI大学" />
         <meta property="og:description" content="AIをフル活用して誰でも簡単にアプリやサイトを作れるようになるオンラインスクール" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.example.com/mypage" />
-        <meta property="og:image" content="ai.png" />
+        <meta property="og:url" content="https://youtubernews.vercel.app/allCategories" />
+        <meta property="og:image" content="https://youtubernews.vercel.app/allCategories/ai.png" />
         
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI大学" />
         <meta name="twitter:description" content="AIをフル活用して誰でも簡単にアプリやサイトを作れるようになるオンラインスクール" />
-        <meta name="twitter:image" content="https://www.example.com/images/twitter-image.jpg" />
+        <meta name="twitter:image" content="https://youtubernews.vercel.app/allCategories/ai.png" />
         <meta name="twitter:site" content="@SekiguchiS39523" />
         
         {/* favicon の設定 */}
@@ -42,7 +42,7 @@ export default function SalonIntroduction() {
         <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
-        <link rel="canonical" href="https://www.example.com/mypage" />
+        <link rel="canonical" href="https://youtubernews.vercel.app/allCategories" />
         
         {/* 他の必要なメタタグ */}
         <meta name="author" content="AIエンジニア" />
