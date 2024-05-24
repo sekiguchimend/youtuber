@@ -60,16 +60,16 @@ export default function BlogId({ blog }) {
         
         {/* Open Graph プロトコル（ソーシャルメディアでの共有時に使用される） */}
         <meta property="og:title" content={blog.title} />
-        <meta property="og:description" content={blog.description} />
+  <meta property="og:description" content={blog.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://youtubernews.vercel.app/blog/{post-id}" />
-        <meta property="og:image" content={blog.image}/>
+        <meta property="og:url" content={`https://youtubernews.vercel.app/blog/${blog.id}`}  />
+        <meta property="og:image" content={`https://youtubernews.vercel.app/${blog.image}`}/>
         
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={blog.title} />
-        <meta name="twitter:description" content={blog.description} />
-        <meta name="twitter:image" content={blog.image} />
+  <meta name="twitter:description" content={blog.description} />
+        <meta name="twitter:image" content={`https://youtubernews.vercel.app/${blog.image}`} />
         <meta name="twitter:site" content="@SekiguchiS39523" />
         {/* favicon の設定 */}
         <link rel="icon" href="/ai.png" />
