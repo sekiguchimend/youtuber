@@ -62,7 +62,7 @@ export default function BlogId({ blog }) {
         <meta property="og:title" content={blog.title} />
   <meta property="og:description" content={blog.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://youtubernews.vercel.app${router.asPath}`} />
+        <meta property="og:url" content={`https://youtubernews.vercel.app/blog/${blog.id}`} />
         <meta property="og:image" content={`https://youtubernews.vercel.app/${blog.image}`}/>
 
         {/* Twitter カード（ソーシャルメディアでの共有時に使用される） */}
@@ -76,7 +76,7 @@ export default function BlogId({ blog }) {
         <link rel="apple-touch-icon" href="/ai.png" />
         
         {/* キャノニカル URL（重複コンテンツを避けるため） */}
-        <link rel="canonical" href={`https://youtubernews.vercel.app${router.asPath}`} />
+        <link rel="canonical" href={`https://youtubernews.vercel.app/blog/${blog.id}`} />
 
         {/* 他の必要なメタタグ */}
         <meta name="author" content="AIエンジニア" />
